@@ -1,3 +1,0 @@
-([('main',
-   '/Users/fernandapacheco/Documents/PROJETOS GITHUB/Projetos_Python/dist/main',
-   'EXECUTABLE')],)
