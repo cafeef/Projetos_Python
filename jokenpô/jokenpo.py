@@ -25,6 +25,6 @@ def jokenpo():
             print('Pedra quebra tesoura. Eu venci!')
 while True:
     jokenpo()
-    r = input('Quer jogar de novo? [ S | N ]')
+    r = input('Quer jogar de novo? [ S | N ] ')
     if r == 'N':
         break
