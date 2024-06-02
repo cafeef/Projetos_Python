@@ -1,10 +1,10 @@
 from random import choice
 def escolha_palavra():
-    lista_palavrascomdicas = [('maçã', 'fruta vermelha'), ('laranja', 'fruta que também é cor'), ('carro', 'automóvel que todos podem comprar'), ('paralelepípedo', 'forma geométrica espacial'), ('cachorro', 'animal doméstico que não cai em pé'), ('anitta', 'cantora brasileira pedro álvares cabral')]
-    lista_palavras = ['maçã', 'laranja', 'carro', 'paralelepípedo', 'cachorro', 'anitta']
-    palavras = dict(lista_palavrascomdicas)
-    escolha = choice(lista_palavras)
-    Quantidade_Erros = 0
+    lista_palavrascomdicas = [('maçã', 'fruta vermelha'), ('laranja', 'fruta que também é cor'), ('carro', 'automóvel que todos podem comprar'), ('paralelepípedo', 'forma geométrica espacial'), ('cachorro', 'animal doméstico que não cai em pé'), ('anitta', 'cantora brasileira pedro álvares cabral')] #dicionário que armazena algumas respostas e dicas
+    lista_palavras = ['maçã', 'laranja', 'carro', 'paralelepípedo', 'cachorro', 'anitta'] #lista apenas com as palavras
+    palavras = dict(lista_palavrascomdicas) #conversao em dicionario
+    escolha = choice(lista_palavras) #sorteio da lista de palavras para o inicio do programa
+    Quantidade_Erros = 0 #inicializa 
     Quantidade_Tracos = len(escolha)
     adivinhar = ['_'] * Quantidade_Tracos
     gabarito = list(escolha)
