@@ -16,17 +16,17 @@ def atribuicao_linhas():
 
 def atribuicao_matrizes(linhas, Matriz1, Matriz2, Matriz3, Matriz4):
     linhas = atribuicao_linhas()
-    Matriz1.append(i)
-    i = atribuicao_linhas()
-    Matriz2.append(i)
-    i = atribuicao_linhas()
-    Matriz3.append(i)
-    i = atribuicao_linhas()
-    Matriz4.append(i)
+    Matriz1.append(linhas)
+    linhas = atribuicao_linhas()
+    Matriz2.append(linhas)
+    linhas = atribuicao_linhas()
+    Matriz3.append(linhas)
+    linhas = atribuicao_linhas()
+    Matriz4.append(linhas)
     Matriz_Total = [Matriz1, Matriz2, Matriz3, Matriz4]    
     return Matriz_Total
 
 linhas = atribuicao_linhas()
-Matriz_Total = atribuicao_matrizes(i, Matriz1, Matriz2, Matriz3, Matriz4)
-print(Matriz_Total)
+Matriz_Total = atribuicao_matrizes(linhas, Matriz1, Matriz2, Matriz3, Matriz4)
+
     
